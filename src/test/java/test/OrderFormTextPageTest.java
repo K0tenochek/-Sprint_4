@@ -57,7 +57,6 @@ public class OrderFormTextPageTest extends BaseUITest {
 
     @Test
     public void completeForm_1() {
-        driver.get("https://qa-scooter.praktikum-services.ru/");
         MainSamokatPage objMainPage = new MainSamokatPage(driver);
         ForWhoSamokatPage objWhoSamokatPage = new ForWhoSamokatPage(driver);
         objMainPage.scrollAndClick(orderButtonLocator);

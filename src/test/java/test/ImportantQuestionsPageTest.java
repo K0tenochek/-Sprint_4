@@ -76,7 +76,6 @@ public class ImportantQuestionsPageTest extends BaseUITest {
 
     @Test
     public void checkChveronContent() {
-        driver.get("https://qa-scooter.praktikum-services.ru/");
         MainSamokatPage objMainPage = new MainSamokatPage(driver);
         objMainPage.scrollAndClick(chevronLocator);
         String content = objMainPage.getText(contentLocator);

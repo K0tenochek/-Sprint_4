@@ -65,6 +65,9 @@ public class MainSamokatPage {
     // локатор на кнопку "Заказать" внизу страницы
     public static By buttonOrderBottomPage = By.xpath("//div[@class='Home_FinishButton__1_cWm']/button[@class='Button_Button__ra12g Button_UltraBig__UU3Lp']");
 
+    // локатор на кнопку "Да все привыкли"
+    public static By cookieAcceptButton = By.id("rcc-confirm-button");
+
     private final WebDriver driver;
 
     public MainSamokatPage(WebDriver driver) {
