@@ -56,7 +56,7 @@ public class OrderFormTextPageTest extends BaseUITest {
     }
 
     @Test
-    public void completeForm_1() {
+    public void submitOrderSamokatForm() {
         MainSamokatPage objMainPage = new MainSamokatPage(driver);
         ForWhoSamokatPage objWhoSamokatPage = new ForWhoSamokatPage(driver);
         objMainPage.scrollAndClick(orderButtonLocator);
